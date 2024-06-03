@@ -1,0 +1,45 @@
+name: educationapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.3.2   ##for database
+  path: ^1.9.0      ##for database path
+  #flutter_svg: ^2.0.10+1
+  tflite_v2: ^1.0.0
+  image_picker: ^1.0.7
+  model_viewer_plus: ^1.6.0    #######
+  google_generative_ai: ^0.3.1
+  flutter_markdown:
+  rename_app: ^1.3.2
+  loading_animation_widget: ^1.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/pngs/appicon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/pngs/
+    - assets/3dmodels/
+    - assets/mlmodels/
+    - assets/3dmodels/bio/
+    - assets/3dmodels/che/
+    - assets/3dmodels/math/
